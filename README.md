@@ -1,6 +1,12 @@
+Here's the updated README file with the live link included:
+
+---
+
 # 🎥 YouTube Thumbnail Board 📸
 
 Welcome to **YouTube Thumbnail Board**, a powerful web app designed to easily manage and display YouTube thumbnails on customized boards! This project is ideal for developers, students, and professionals looking to streamline their thumbnail collection and organization process. 🚀
+
+**Live Demo**: [YouTube Thumbnail Board](https://youtube-thumbnail-board.onrender.com)
 
 ## 🌟 Features
 
@@ -45,7 +51,6 @@ Welcome to **YouTube Thumbnail Board**, a powerful web app designed to easily ma
 
 5. Open your browser and go to `http://127.0.0.1:5000`.
 
-
 ## 🧩 How It Works
 
 - **Fetching Thumbnails**: Provide a valid YouTube URL, and the app automatically extracts and displays the highest-quality thumbnail available.
@@ -54,3 +59,7 @@ Welcome to **YouTube Thumbnail Board**, a powerful web app designed to easily ma
 ## 🤝 Contributing
 
 We welcome contributions from the community! If you have suggestions or improvements, feel free to open an issue or submit a pull request. 🙌
+
+--- 
+
+Feel free to copy and paste this into your README file!
