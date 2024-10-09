@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My YouTube Thumbnail Board</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/png" sizes="16x16 32x32 48x48">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Thumbnail Boards</h2>
+      <ul id="boardList"></ul>
+      <button id="addBoardButton">Add Thumbnail Board</button>
+    </div>
+    <div class="main-content">
+      <h1 id="currentBoardTitle">My YouTube Thumbnail Board</h1>
+      <div class="input-group">
+        <input id="thumbnailInput" type="text" placeholder="Add new thumbnail URL or upload image" />
+        <input type="file" id="fileInput" accept="image/*" />
+        <button id="addThumbnailButton">Add Thumbnail</button>
+      </div>
+      <div id="thumbnailPreview" class="thumbnail-preview"></div>
+      <div id="thumbnailBoard" class="thumbnail-board">
+        <!-- Thumbnails will be dynamically inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
