@@ -45,10 +45,6 @@ Welcome to **YouTube Thumbnail Board**, a powerful web app designed to easily ma
 
 5. Open your browser and go to `http://127.0.0.1:5000`.
 
-## 🎨 Live link
-
-![App Interface](https://youtube-thumbnail-board.onrender.com)
-> Preview of the Thumbnail Board management system.
 
 ## 🧩 How It Works
 
