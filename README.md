@@ -1,6 +1,3 @@
-Here's the updated README file with the live link included:
-
----
 
 # 🎥 YouTube Thumbnail Board 📸
 
